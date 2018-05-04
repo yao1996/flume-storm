@@ -19,5 +19,6 @@
 
     <mappers>
         <mapper resource="sqlMapper/ErrorLogMapper.xml"/>
+        <mapper resource="sqlMapper/InfoLogMapper.xml"/>
     </mappers>
 </configuration>

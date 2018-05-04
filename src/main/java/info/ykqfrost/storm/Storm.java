@@ -1,6 +1,7 @@
 package info.ykqfrost.storm;
 
 import info.ykqfrost.common.Constants;
+import org.apache.flume.Channel;
 import org.apache.storm.Config;
 import org.apache.storm.LocalCluster;
 import org.apache.storm.topology.BoltDeclarer;
@@ -16,18 +17,24 @@ import java.util.ArrayList;
  */
 public class Storm {
     private ArrayList<String> spoutIds = new ArrayList<String>();
+    private ArrayList<Channel> channels;
+
+    public Storm(ArrayList<Channel> channels) {
+        this.channels = channels;
+    }
 
     private static final Logger logger = LoggerFactory.getLogger(Storm.class);
 
-    private void startStorm() {
+    public void startStorm() {
         TopologyBuilder builder = new TopologyBuilder();
-
-        String spoutId = Constants.SPOUT_ID;
-        builder.setSpout(spoutId, new FlumeSpout());
-        spoutIds.add(spoutId);
-        logger.debug("spout ID " + Constants.SPOUT_ID);
-
-        BoltDeclarer reportBoltDeclarer = builder.setBolt(Constants.REPORT_BOLT_ID, new ReportBolt());
+        for (int i = 0; i < channels.size(); i++) {
+            String spoutId = Constants.SPOUT_ID + i;
+            FlumeSpout flumeSpout = new FlumeSpout();
+            builder.setSpout(spoutId, flumeSpout, 2);
+            spoutIds.add(spoutId);
+            logger.debug("spout ID :" + spoutId);
+        }
+        BoltDeclarer reportBoltDeclarer = builder.setBolt(Constants.MYSQL_BOLT_ID, new MysqlBolt(), 2).setNumTasks(4);
         for (String s : spoutIds) {
             reportBoltDeclarer.shuffleGrouping(s);
         }
@@ -49,7 +56,7 @@ public class Storm {
 //        //注册bolt，2个线程 4个任务，
 //        // shuffleGrouping方法告诉Storm要将SentenceSpout发射的tuple随机均匀的分发给SplitSentenceBolt的实例
 //        builder.setBolt(SPLIT_BOLT_ID, splitSentenceBolt, 2).setNumTasks(4).shuffleGrouping(SENTENCE_SPOUT_ID);
-//        builder.setBolt(REPORT_BOLT_ID, reportBolt, 4).fieldsGrouping(SPLIT_BOLT_ID, new Fields("words"));
+//        builder.setBolt(MYSQL_BOLT_ID, reportBolt, 4).fieldsGrouping(SPLIT_BOLT_ID, new Fields("words"));
 //        Config config = new Config();
 //        LocalCluster cluster = new LocalCluster();
 //        //本地提交

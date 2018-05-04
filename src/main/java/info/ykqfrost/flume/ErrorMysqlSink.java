@@ -1,6 +1,6 @@
 package info.ykqfrost.flume;
 
-import info.ykqfrost.bean.ErrorLog;
+import info.ykqfrost.bean.Log;
 import info.ykqfrost.mapper.ErrorLogMapper;
 import org.apache.flume.Channel;
 import org.apache.flume.Event;
@@ -34,15 +34,14 @@ public class ErrorMysqlSink extends AbstractMysqlSink {
                 }
             }
             if (events.size() == 0) {
-                logger.debug("get event null");
                 result = Status.BACKOFF;
             } else {
-                logger.debug("get event num : " + events.size());
+                logger.debug("sink get event num : " + events.size());
             }
             transaction.commit();
         } catch (Exception e) {
             transaction.rollback();
-            logger.debug("读取event错误");
+            logger.debug("sink 读取event错误");
             logger.debug(e.getMessage());
         } finally {
             transaction.close();
@@ -51,9 +50,10 @@ public class ErrorMysqlSink extends AbstractMysqlSink {
             ErrorLogMapper mapper = session.getMapper(ErrorLogMapper.class);
             for (Event event : events) {
                 String body = new String(event.getBody());
-                ErrorLog errorLog = ErrorLog.parseFromEventBody(body);
-                mapper.insertError(errorLog);
+                Log log = Log.parseFromEventBody(body);
+                mapper.insertError(log);
             }
+            session.commit();
         }
         return result;
     }

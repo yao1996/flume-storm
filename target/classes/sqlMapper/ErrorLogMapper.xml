@@ -4,16 +4,16 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="info.ykqfrost.mapper.ErrorLogMapper">
-    <resultMap id="BaseResultMap" type="info.ykqfrost.bean.ErrorLog">
-        <id property="errorId" column="error_id"/>
+    <resultMap id="BaseResultMap" type="info.ykqfrost.bean.Log">
+        <id property="logId" column="error_id"/>
         <result property="date" column="date"/>
         <result property="msg" column="msg"/>
         <result property="location" column="location"/>
     </resultMap>
 
-    <insert id="insertError" parameterType="info.ykqfrost.bean.ErrorLog">
+    <insert id="insertError" parameterType="info.ykqfrost.bean.Log">
         INSERT INTO log.log_error
-        VALUES (#{errorId}, #{date}, #{msg}, #{location})
+        VALUES (#{logId}, #{date}, #{msg}, #{location})
     </insert>
 
 </mapper>

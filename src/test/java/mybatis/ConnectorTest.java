@@ -1,6 +1,6 @@
 package mybatis;
 
-import info.ykqfrost.bean.ErrorLog;
+import info.ykqfrost.bean.Log;
 import info.ykqfrost.mapper.ErrorLogMapper;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -26,11 +26,11 @@ public class ConnectorTest {
         SqlSession session = sqlSessionFactory.openSession();
         try {
             ErrorLogMapper errorLogMapper = session.getMapper(ErrorLogMapper.class);
-            ErrorLog errorLog = new ErrorLog();
-            errorLog.setDate(new Date());
-            errorLog.setMsg("aa");
-            errorLog.setLocation("bb");
-            errorLogMapper.insertError(errorLog);
+            Log log = new Log();
+            log.setDate(new Date());
+            log.setMsg("aa");
+            log.setLocation("bb");
+            errorLogMapper.insertError(log);
             session.commit();
         } finally {
             session.close();

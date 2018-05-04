@@ -1,6 +1,7 @@
 package info.ykqfrost.flume;
 
 import com.google.common.collect.ImmutableMap;
+import info.ykqfrost.common.Constants;
 import org.apache.flume.Channel;
 import org.apache.flume.SinkRunner;
 import org.apache.flume.SourceRunner;
@@ -59,7 +60,7 @@ public class FlumeAgent {
         }
     }
 
-    public ImmutableMap<String, Channel> getChannels() {
-        return channels;
+    public Channel getFileNormalChannel() {
+        return channels.get(Constants.FLUME_CHANNEL_NAME_2);
     }
 }

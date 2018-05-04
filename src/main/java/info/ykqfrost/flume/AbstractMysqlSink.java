@@ -1,24 +1,19 @@
 package info.ykqfrost.flume;
 
+import info.ykqfrost.common.MybatisUtils;
 import org.apache.flume.Context;
 import org.apache.flume.conf.Configurable;
 import org.apache.flume.sink.AbstractSink;
-import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.apache.logging.log4j.util.Strings;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.io.IOException;
 
 /**
  * @author Yao Keqi
  * @date 2018/4/23
  */
 public abstract class AbstractMysqlSink extends AbstractSink implements Configurable {
-    private static final String RES_MYBATIS = "mybatis.xml";
     private static final Logger logger = LoggerFactory.getLogger(AbstractMysqlSink.class);
 
     SqlSession session;
@@ -27,14 +22,7 @@ public abstract class AbstractMysqlSink extends AbstractSink implements Configur
     @Override
     public synchronized void start() {
         super.start();
-
-        try {
-            SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(Resources.getResourceAsStream(RES_MYBATIS));
-            session = factory.openSession();
-        } catch (IOException e) {
-            logger.debug("读取mybatis配置文件错误");
-            logger.debug(e.getMessage());
-        }
+        session = MybatisUtils.getSession();
         logger.debug(this.getName() + " started");
     }
 
@@ -49,7 +37,7 @@ public abstract class AbstractMysqlSink extends AbstractSink implements Configur
         String batchSizeString = context.getString("batchSize");
         if (!Strings.isBlank(batchSizeString)) {
             try {
-                logger.debug("get sink batchSize : {}",batchSizeString);
+                logger.debug("get sink batchSize : {}", batchSizeString);
                 this.batchSize = Integer.parseInt(batchSizeString);
             } catch (NumberFormatException e) {
                 logger.warn(String.format("Unable to convert %s to integer, using default value(%d) for maxByteToDump", "batch_size", 20));

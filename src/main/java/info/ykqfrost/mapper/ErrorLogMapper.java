@@ -1,6 +1,6 @@
 package info.ykqfrost.mapper;
 
-import info.ykqfrost.bean.ErrorLog;
+import info.ykqfrost.bean.Log;
 
 /**
  * @author Yao Keqi
@@ -10,7 +10,8 @@ public interface ErrorLogMapper {
 
     /**
      * 插入新的error信息
+     * @param log 日志bean
      */
-    void insertError(ErrorLog errorLog);
+    void insertError(Log log);
 
 }

@@ -12,9 +12,9 @@ public class Constants {
     public static final String FLUME_CHANNEL_NAME_1 = "fileErrorChannel";
     public static final String FLUME_CHANNEL_NAME_2 = "fileNormalChannel";
 
-    public static final int DEFAULT_BATCH_SIZE = 20;
-
     public static final String SPOUT_ID = "spout_id_";
-    public static final String REPORT_BOLT_ID = "report_bolt_id_";
+    public static final String MYSQL_BOLT_ID = "mysql_bolt_id_";
     public static final String TOPOLOGY_NAME = "flume_storm_topology";
+
+    public static final String RES_MYBATIS = "mybatis.xml";
 }
