@@ -1,7 +1,7 @@
 package info.ykqfrost.storm;
 
 import org.apache.flume.Event;
-import org.apache.flume.Sink;
+import org.apache.flume.source.AvroSource;
 import org.apache.storm.task.OutputCollector;
 import org.apache.storm.task.TopologyContext;
 import org.apache.storm.topology.OutputFieldsDeclarer;
@@ -19,7 +19,6 @@ public class ReportBolt extends BaseRichBolt {
 
     public void prepare(Map map, TopologyContext topologyContext, OutputCollector outputCollector) {
         this.collector = outputCollector;
-
     }
 
     public void execute(Tuple tuple) {

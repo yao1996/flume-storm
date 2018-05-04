@@ -1,0 +1,945 @@
+[ ERROR ] 2018-05-02 10:50:42,888 org.apache.flume.node.PropertiesFileConfigurationProvider.getFlumeConfiguration(PropertiesFileConfigurationProvider.java:191) --> Unable to load file:agent1.conf (I/O failure) - Exception follows.
+java.io.FileNotFoundException: agent1.conf (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at org.apache.flume.node.PropertiesFileConfigurationProvider.getFlumeConfiguration(PropertiesFileConfigurationProvider.java:186)
+	at org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:89)
+	at info.ykqfrost.flume.FlumeAgent.initAgent(FlumeAgent.java:36)
+	at info.ykqfrost.flume.FlumeAgent.<init>(FlumeAgent.java:30)
+	at info.ykqfrost.Main.main(Main.java:18)
+[ WARN ] 2018-05-02 10:50:42,888 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ ERROR ] 2018-05-02 10:54:09,780 org.apache.flume.node.PropertiesFileConfigurationProvider.getFlumeConfiguration(PropertiesFileConfigurationProvider.java:191) --> Unable to load file:agent1.conf (I/O failure) - Exception follows.
+java.io.FileNotFoundException: agent1.conf (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at org.apache.flume.node.PropertiesFileConfigurationProvider.getFlumeConfiguration(PropertiesFileConfigurationProvider.java:186)
+	at org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:89)
+	at info.ykqfrost.flume.FlumeAgent.initAgent(FlumeAgent.java:37)
+	at info.ykqfrost.flume.FlumeAgent.<init>(FlumeAgent.java:30)
+	at info.ykqfrost.Main.main(Main.java:18)
+[ WARN ] 2018-05-02 10:54:09,780 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ ERROR ] 2018-05-02 10:55:37,691 org.apache.flume.node.PropertiesFileConfigurationProvider.getFlumeConfiguration(PropertiesFileConfigurationProvider.java:191) --> Unable to load file:resources\agent1.conf (I/O failure) - Exception follows.
+java.io.FileNotFoundException: resources\agent1.conf (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at org.apache.flume.node.PropertiesFileConfigurationProvider.getFlumeConfiguration(PropertiesFileConfigurationProvider.java:186)
+	at org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:89)
+	at info.ykqfrost.flume.FlumeAgent.initAgent(FlumeAgent.java:37)
+	at info.ykqfrost.flume.FlumeAgent.<init>(FlumeAgent.java:30)
+	at info.ykqfrost.Main.main(Main.java:18)
+[ WARN ] 2018-05-02 10:55:37,707 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ ERROR ] 2018-05-02 10:58:37,904 org.apache.flume.node.PropertiesFileConfigurationProvider.getFlumeConfiguration(PropertiesFileConfigurationProvider.java:191) --> Unable to load file:null (I/O failure) - Exception follows.
+java.io.FileNotFoundException: null (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at org.apache.flume.node.PropertiesFileConfigurationProvider.getFlumeConfiguration(PropertiesFileConfigurationProvider.java:186)
+	at org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:89)
+	at info.ykqfrost.flume.FlumeAgent.initAgent(FlumeAgent.java:38)
+	at info.ykqfrost.flume.FlumeAgent.<init>(FlumeAgent.java:31)
+	at info.ykqfrost.Main.main(Main.java:18)
+[ WARN ] 2018-05-02 10:58:37,904 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ ERROR ] 2018-05-02 10:58:53,916 org.apache.flume.node.PropertiesFileConfigurationProvider.getFlumeConfiguration(PropertiesFileConfigurationProvider.java:191) --> Unable to load file:null (I/O failure) - Exception follows.
+java.io.FileNotFoundException: null (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at org.apache.flume.node.PropertiesFileConfigurationProvider.getFlumeConfiguration(PropertiesFileConfigurationProvider.java:186)
+	at org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:89)
+	at info.ykqfrost.flume.FlumeAgent.initAgent(FlumeAgent.java:39)
+	at info.ykqfrost.flume.FlumeAgent.<init>(FlumeAgent.java:32)
+	at info.ykqfrost.Main.main(Main.java:18)
+[ WARN ] 2018-05-02 10:58:53,932 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ ERROR ] 2018-05-02 10:59:21,361 org.apache.flume.node.PropertiesFileConfigurationProvider.getFlumeConfiguration(PropertiesFileConfigurationProvider.java:191) --> Unable to load file:null (I/O failure) - Exception follows.
+java.io.FileNotFoundException: null (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at org.apache.flume.node.PropertiesFileConfigurationProvider.getFlumeConfiguration(PropertiesFileConfigurationProvider.java:186)
+	at org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:89)
+	at info.ykqfrost.flume.FlumeAgent.initAgent(FlumeAgent.java:39)
+	at info.ykqfrost.flume.FlumeAgent.<init>(FlumeAgent.java:32)
+	at info.ykqfrost.Main.main(Main.java:18)
+[ WARN ] 2018-05-02 10:59:21,361 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ WARN ] 2018-05-02 11:09:32,858 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: batch_size = 20
+[ WARN ] 2018-05-02 11:09:32,874 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:337) --> Agent configuration for 'agent1' does not contain any valid channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:09:32,874 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:09:32,874 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ WARN ] 2018-05-02 11:10:30,602 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: batch_size = 20
+[ WARN ] 2018-05-02 11:10:30,602 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:337) --> Agent configuration for 'agent1' does not contain any valid channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:10:30,602 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:10:30,602 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ WARN ] 2018-05-02 11:13:29,430 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: batch_size = 20
+[ WARN ] 2018-05-02 11:13:29,430 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:337) --> Agent configuration for 'agent1' does not contain any valid channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:13:29,430 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:13:29,430 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ WARN ] 2018-05-02 11:13:29,430 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: batch_size = 20
+[ WARN ] 2018-05-02 11:13:29,430 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:337) --> Agent configuration for 'agent1' does not contain any valid channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:13:29,430 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:14:09,912 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: batch_size = 20
+[ WARN ] 2018-05-02 11:14:09,912 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:337) --> Agent configuration for 'agent1' does not contain any valid channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:14:09,912 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:14:09,928 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ WARN ] 2018-05-02 11:14:52,239 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: batch_size = 20
+[ WARN ] 2018-05-02 11:14:52,239 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:337) --> Agent configuration for 'agent1' does not contain any valid channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:14:52,239 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:14:52,239 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ WARN ] 2018-05-02 11:15:12,888 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: batch_size = 20
+[ WARN ] 2018-05-02 11:15:12,888 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:337) --> Agent configuration for 'agent1' does not contain any valid channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:15:12,888 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:15:12,888 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ WARN ] 2018-05-02 11:16:00,290 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: batch_size = 20
+[ WARN ] 2018-05-02 11:16:00,290 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:337) --> Agent configuration for 'agent1' does not contain any valid channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:16:00,290 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:16:00,290 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ WARN ] 2018-05-02 11:17:43,955 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:337) --> Agent configuration for 'agent1' does not contain any valid channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:17:43,971 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:17:43,971 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ WARN ] 2018-05-02 11:18:02,109 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: batch_size = 20
+[ WARN ] 2018-05-02 11:18:02,113 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:337) --> Agent configuration for 'agent1' does not contain any valid channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:18:02,113 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:18:02,113 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ WARN ] 2018-05-02 11:20:50,792 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: batch_size = 20
+[ WARN ] 2018-05-02 11:20:50,808 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:337) --> Agent configuration for 'agent1' does not contain any valid channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:20:50,808 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:20:50,808 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ WARN ] 2018-05-02 11:21:09,114 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: batch_size = 20
+[ WARN ] 2018-05-02 11:21:09,130 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:337) --> Agent configuration for 'agent1' does not contain any valid channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:21:09,130 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:21:09,130 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent
+[ WARN ] 2018-05-02 11:21:15,794 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: batch_size = 20
+[ WARN ] 2018-05-02 11:21:15,794 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:337) --> Agent configuration for 'agent1' does not contain any valid channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:21:15,794 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:21:15,794 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent2
+[ WARN ] 2018-05-02 11:21:47,717 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: batch_size = 20
+[ WARN ] 2018-05-02 11:21:47,717 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:337) --> Agent configuration for 'agent1' does not contain any valid channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:21:47,717 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:21:47,733 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ WARN ] 2018-05-02 11:22:12,643 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: batch_size = 20
+[ WARN ] 2018-05-02 11:22:12,659 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:337) --> Agent configuration for 'agent' does not contain any valid channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:22:12,659 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent'. It will be removed.
+[ WARN ] 2018-05-02 11:22:12,659 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent1' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:22:12,659 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:22:12,659 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent
+[ WARN ] 2018-05-02 11:24:58,867 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent' has no sinks.
+[ WARN ] 2018-05-02 11:25:37,795 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: batch_size = 20
+[ WARN ] 2018-05-02 11:25:37,801 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:337) --> Agent configuration for 'agent1' does not contain any valid channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:25:37,804 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:25:37,808 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ WARN ] 2018-05-02 11:26:02,198 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent' has no sinks.
+[ WARN ] 2018-05-02 11:26:56,943 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent' has no sinks.
+[ WARN ] 2018-05-02 11:28:47,417 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: batch_size = 20
+[ WARN ] 2018-05-02 11:28:47,422 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:337) --> Agent configuration for 'agent1' does not contain any valid channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:28:47,424 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:28:47,426 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ WARN ] 2018-05-02 11:29:14,100 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent' has no sinks.
+[ WARN ] 2018-05-02 11:29:14,113 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ WARN ] 2018-05-02 11:29:29,696 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent' has no sinks.
+[ WARN ] 2018-05-02 11:29:56,346 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 11:33:01,408 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:337) --> Agent configuration for 'agent1' does not contain any valid channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:33:01,412 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:33:01,418 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ WARN ] 2018-05-02 11:33:08,345 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:337) --> Agent configuration for 'agent1' does not contain any valid channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:33:08,349 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:33:08,353 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ WARN ] 2018-05-02 11:33:41,201 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:337) --> Agent configuration for 'agent1' does not contain any valid channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:33:41,204 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:33:41,211 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ WARN ] 2018-05-02 11:33:56,883 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 11:34:04,197 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSources(FlumeConfiguration.java:597) --> Configuration empty for: avroSrc1.Removed.
+[ WARN ] 2018-05-02 11:34:04,202 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 11:34:04,205 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:352) --> Agent configuration for 'agent1' has no sources or sinks. Will be marked invalid.
+[ WARN ] 2018-05-02 11:34:04,205 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent1'. It will be removed.
+[ WARN ] 2018-05-02 11:34:04,209 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:133) --> No configuration found for this host:agent1
+[ WARN ] 2018-05-02 11:35:38,696 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 11:36:10,037 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 11:36:21,813 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 11:37:00,385 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:37:00,385 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 11:37:00,401 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 11:37:48,217 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent2' has no sinks.
+[ ERROR ] 2018-05-02 11:37:49,045 org.apache.flume.channel.file.FileChannel.start(FileChannel.java:306) --> Failed to start the file channel [channel=fileNormalMemory]
+java.io.IOException: Cannot lock C:\Users\yaoke\.flume\file-channel\checkpoint. The directory is already locked. [channel=fileNormalMemory]
+	at org.apache.flume.channel.file.Log.lock(Log.java:1137)
+	at org.apache.flume.channel.file.Log.<init>(Log.java:319)
+	at org.apache.flume.channel.file.Log.<init>(Log.java:75)
+	at org.apache.flume.channel.file.Log$Builder.build(Log.java:266)
+	at org.apache.flume.channel.file.FileChannel.start(FileChannel.java:294)
+	at info.ykqfrost.flume.FlumeAgent.startAgent(FlumeAgent.java:46)
+	at info.ykqfrost.Main.main(Main.java:20)
+[ WARN ] 2018-05-02 11:39:39,829 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 11:39:39,845 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 11:39:39,860 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ ERROR ] 2018-05-02 11:39:40,721 org.apache.flume.channel.file.FileChannel.start(FileChannel.java:306) --> Failed to start the file channel [channel=fileNormalChannel]
+java.io.IOException: Cannot lock C:\Users\yaoke\.flume\file-channel\checkpoint. The directory is already locked. [channel=fileNormalChannel]
+	at org.apache.flume.channel.file.Log.lock(Log.java:1137)
+	at org.apache.flume.channel.file.Log.<init>(Log.java:319)
+	at org.apache.flume.channel.file.Log.<init>(Log.java:75)
+	at org.apache.flume.channel.file.Log$Builder.build(Log.java:266)
+	at org.apache.flume.channel.file.FileChannel.start(FileChannel.java:294)
+	at info.ykqfrost.flume.FlumeAgent.startAgent(FlumeAgent.java:46)
+	at info.ykqfrost.Main.main(Main.java:20)
+[ WARN ] 2018-05-02 03:14:23,685 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink.batchSize
+[ WARN ] 2018-05-02 03:14:23,685 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink.batchSize = 20
+[ WARN ] 2018-05-02 03:14:23,685 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 03:14:23,701 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 03:14:23,717 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 03:14:23,811 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink.batchSize
+[ WARN ] 2018-05-02 03:14:23,811 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink.batchSize = 20
+[ WARN ] 2018-05-02 03:14:23,811 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 03:14:23,811 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 03:14:23,811 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ ERROR ] 2018-05-02 03:14:24,576 org.apache.flume.channel.file.FileChannel.start(FileChannel.java:306) --> Failed to start the file channel [channel=fileNormalChannel]
+java.io.IOException: Cannot lock C:\Users\yaoke\.flume\file-channel\checkpoint. The directory is already locked. [channel=fileNormalChannel]
+	at org.apache.flume.channel.file.Log.lock(Log.java:1137)
+	at org.apache.flume.channel.file.Log.<init>(Log.java:319)
+	at org.apache.flume.channel.file.Log.<init>(Log.java:75)
+	at org.apache.flume.channel.file.Log$Builder.build(Log.java:266)
+	at org.apache.flume.channel.file.FileChannel.start(FileChannel.java:294)
+	at info.ykqfrost.flume.FlumeAgent.startAgent(FlumeAgent.java:50)
+	at info.ykqfrost.Main.main(Main.java:20)
+[ WARN ] 2018-05-02 03:16:09,604 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink.errorMysqlSink.batchSize
+[ WARN ] 2018-05-02 03:16:09,604 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink.errorMysqlSink.batchSize = 20
+[ WARN ] 2018-05-02 03:16:09,620 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 03:16:09,620 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = errorMysqlSink normalStormSink
+[ WARN ] 2018-05-02 03:16:09,620 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 03:16:09,620 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 03:16:09,635 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 03:16:09,760 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink.errorMysqlSink.batchSize
+[ WARN ] 2018-05-02 03:16:09,760 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink.errorMysqlSink.batchSize = 20
+[ WARN ] 2018-05-02 03:16:09,760 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 03:16:09,760 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = errorMysqlSink normalStormSink
+[ WARN ] 2018-05-02 03:16:09,760 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 03:16:09,760 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 03:16:09,760 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ ERROR ] 2018-05-02 03:16:10,510 org.apache.flume.channel.file.FileChannel.start(FileChannel.java:306) --> Failed to start the file channel [channel=fileNormalChannel]
+java.io.IOException: Cannot lock C:\Users\yaoke\.flume\file-channel\checkpoint. The directory is already locked. [channel=fileNormalChannel]
+	at org.apache.flume.channel.file.Log.lock(Log.java:1137)
+	at org.apache.flume.channel.file.Log.<init>(Log.java:319)
+	at org.apache.flume.channel.file.Log.<init>(Log.java:75)
+	at org.apache.flume.channel.file.Log$Builder.build(Log.java:266)
+	at org.apache.flume.channel.file.FileChannel.start(FileChannel.java:294)
+	at info.ykqfrost.flume.FlumeAgent.startAgent(FlumeAgent.java:50)
+	at info.ykqfrost.Main.main(Main.java:20)
+[ WARN ] 2018-05-02 03:16:31,767 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 03:16:31,783 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = errorMysqlSink normalStormSink
+[ WARN ] 2018-05-02 03:16:31,783 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 03:16:31,783 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 03:16:31,798 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 03:16:31,908 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 03:16:31,908 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = errorMysqlSink normalStormSink
+[ WARN ] 2018-05-02 03:16:31,908 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 03:16:31,908 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 03:16:31,908 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ ERROR ] 2018-05-02 03:16:32,642 org.apache.flume.channel.file.FileChannel.start(FileChannel.java:306) --> Failed to start the file channel [channel=fileNormalChannel]
+java.io.IOException: Cannot lock C:\Users\yaoke\.flume\file-channel\checkpoint. The directory is already locked. [channel=fileNormalChannel]
+	at org.apache.flume.channel.file.Log.lock(Log.java:1137)
+	at org.apache.flume.channel.file.Log.<init>(Log.java:319)
+	at org.apache.flume.channel.file.Log.<init>(Log.java:75)
+	at org.apache.flume.channel.file.Log$Builder.build(Log.java:266)
+	at org.apache.flume.channel.file.FileChannel.start(FileChannel.java:294)
+	at info.ykqfrost.flume.FlumeAgent.startAgent(FlumeAgent.java:50)
+	at info.ykqfrost.Main.main(Main.java:20)
+[ WARN ] 2018-05-02 04:12:22,365 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 04:12:22,365 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = ErrorMysqlSink FlumeStorm
+[ WARN ] 2018-05-02 04:12:22,365 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 04:12:22,365 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 04:12:22,396 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 04:12:22,537 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 04:12:22,537 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = ErrorMysqlSink FlumeStorm
+[ WARN ] 2018-05-02 04:12:22,537 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 04:12:22,537 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 04:12:22,537 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 04:13:25,754 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 04:13:25,754 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = ErrorMysqlSink FlumeStorm
+[ WARN ] 2018-05-02 04:13:25,754 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 04:13:25,754 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 04:13:25,770 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 04:13:25,863 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 04:13:25,863 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = ErrorMysqlSink FlumeStorm
+[ WARN ] 2018-05-02 04:13:25,863 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 04:13:25,863 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 04:13:25,863 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ ERROR ] 2018-05-02 04:13:26,801 org.apache.flume.channel.file.FileChannel.start(FileChannel.java:306) --> Failed to start the file channel [channel=fileNormalChannel]
+java.io.IOException: Cannot lock C:\Users\yaoke\.flume\file-channel\checkpoint. The directory is already locked. [channel=fileNormalChannel]
+	at org.apache.flume.channel.file.Log.lock(Log.java:1137)
+	at org.apache.flume.channel.file.Log.<init>(Log.java:319)
+	at org.apache.flume.channel.file.Log.<init>(Log.java:75)
+	at org.apache.flume.channel.file.Log$Builder.build(Log.java:266)
+	at org.apache.flume.channel.file.FileChannel.start(FileChannel.java:294)
+	at info.ykqfrost.flume.FlumeAgent.startAgent(FlumeAgent.java:50)
+	at info.ykqfrost.Main.main(Main.java:20)
+[ WARN ] 2018-05-02 04:13:34,865 org.apache.avro.ipc.Responder.respond(Responder.java:156) --> user error
+java.lang.IllegalStateException: Channel closed [channel=fileNormalChannel]. Due to java.io.IOException: Cannot lock C:\Users\yaoke\.flume\file-channel\checkpoint. The directory is already locked. [channel=fileNormalChannel]
+	at org.apache.flume.channel.file.FileChannel.createTransaction(FileChannel.java:345)
+	at org.apache.flume.channel.BasicChannelSemantics.getTransaction(BasicChannelSemantics.java:122)
+	at org.apache.flume.channel.ChannelProcessor.processEvent(ChannelProcessor.java:260)
+	at org.apache.flume.source.AvroSource.append(AvroSource.java:356)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.avro.ipc.specific.SpecificResponder.respond(SpecificResponder.java:91)
+	at org.apache.avro.ipc.Responder.respond(Responder.java:151)
+	at org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.messageReceived(NettyServer.java:188)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.handleUpstream(NettyServer.java:173)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:558)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:786)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:458)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:439)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:558)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:553)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:84)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.processSelectedKeys(AbstractNioWorker.java:471)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:332)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:35)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:102)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Cannot lock C:\Users\yaoke\.flume\file-channel\checkpoint. The directory is already locked. [channel=fileNormalChannel]
+	at org.apache.flume.channel.file.Log.lock(Log.java:1137)
+	at org.apache.flume.channel.file.Log.<init>(Log.java:319)
+	at org.apache.flume.channel.file.Log.<init>(Log.java:75)
+	at org.apache.flume.channel.file.Log$Builder.build(Log.java:266)
+	at org.apache.flume.channel.file.FileChannel.start(FileChannel.java:294)
+	at info.ykqfrost.flume.FlumeAgent.startAgent(FlumeAgent.java:50)
+	at info.ykqfrost.Main.main(Main.java:20)
+[ WARN ] 2018-05-02 04:13:34,865 org.apache.avro.ipc.Responder.respond(Responder.java:174) --> system error
+org.apache.avro.AvroRuntimeException: Unknown datum type: java.lang.IllegalStateException: Channel closed [channel=fileNormalChannel]. Due to java.io.IOException: Cannot lock C:\Users\yaoke\.flume\file-channel\checkpoint. The directory is already locked. [channel=fileNormalChannel]
+	at org.apache.avro.generic.GenericData.getSchemaName(GenericData.java:593)
+	at org.apache.avro.generic.GenericData.resolveUnion(GenericData.java:558)
+	at org.apache.avro.generic.GenericDatumWriter.resolveUnion(GenericDatumWriter.java:144)
+	at org.apache.avro.generic.GenericDatumWriter.write(GenericDatumWriter.java:71)
+	at org.apache.avro.generic.GenericDatumWriter.write(GenericDatumWriter.java:58)
+	at org.apache.avro.ipc.specific.SpecificResponder.writeError(SpecificResponder.java:74)
+	at org.apache.avro.ipc.Responder.respond(Responder.java:169)
+	at org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.messageReceived(NettyServer.java:188)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.handleUpstream(NettyServer.java:173)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:558)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:786)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:458)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:439)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:558)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:553)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:84)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.processSelectedKeys(AbstractNioWorker.java:471)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:332)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:35)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:102)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ WARN ] 2018-05-02 04:14:04,991 org.apache.avro.ipc.Responder.respond(Responder.java:156) --> user error
+java.lang.IllegalStateException: Channel closed [channel=fileNormalChannel]. Due to java.io.IOException: Cannot lock C:\Users\yaoke\.flume\file-channel\checkpoint. The directory is already locked. [channel=fileNormalChannel]
+	at org.apache.flume.channel.file.FileChannel.createTransaction(FileChannel.java:345)
+	at org.apache.flume.channel.BasicChannelSemantics.getTransaction(BasicChannelSemantics.java:122)
+	at org.apache.flume.channel.ChannelProcessor.processEvent(ChannelProcessor.java:260)
+	at org.apache.flume.source.AvroSource.append(AvroSource.java:356)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.avro.ipc.specific.SpecificResponder.respond(SpecificResponder.java:91)
+	at org.apache.avro.ipc.Responder.respond(Responder.java:151)
+	at org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.messageReceived(NettyServer.java:188)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.handleUpstream(NettyServer.java:173)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:558)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:786)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:458)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:439)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:558)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:553)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:84)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.processSelectedKeys(AbstractNioWorker.java:471)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:332)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:35)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:102)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Cannot lock C:\Users\yaoke\.flume\file-channel\checkpoint. The directory is already locked. [channel=fileNormalChannel]
+	at org.apache.flume.channel.file.Log.lock(Log.java:1137)
+	at org.apache.flume.channel.file.Log.<init>(Log.java:319)
+	at org.apache.flume.channel.file.Log.<init>(Log.java:75)
+	at org.apache.flume.channel.file.Log$Builder.build(Log.java:266)
+	at org.apache.flume.channel.file.FileChannel.start(FileChannel.java:294)
+	at info.ykqfrost.flume.FlumeAgent.startAgent(FlumeAgent.java:50)
+	at info.ykqfrost.Main.main(Main.java:20)
+[ WARN ] 2018-05-02 04:14:04,991 org.apache.avro.ipc.Responder.respond(Responder.java:174) --> system error
+org.apache.avro.AvroRuntimeException: Unknown datum type: java.lang.IllegalStateException: Channel closed [channel=fileNormalChannel]. Due to java.io.IOException: Cannot lock C:\Users\yaoke\.flume\file-channel\checkpoint. The directory is already locked. [channel=fileNormalChannel]
+	at org.apache.avro.generic.GenericData.getSchemaName(GenericData.java:593)
+	at org.apache.avro.generic.GenericData.resolveUnion(GenericData.java:558)
+	at org.apache.avro.generic.GenericDatumWriter.resolveUnion(GenericDatumWriter.java:144)
+	at org.apache.avro.generic.GenericDatumWriter.write(GenericDatumWriter.java:71)
+	at org.apache.avro.generic.GenericDatumWriter.write(GenericDatumWriter.java:58)
+	at org.apache.avro.ipc.specific.SpecificResponder.writeError(SpecificResponder.java:74)
+	at org.apache.avro.ipc.Responder.respond(Responder.java:169)
+	at org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.messageReceived(NettyServer.java:188)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.handleUpstream(NettyServer.java:173)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:558)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:786)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:458)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:439)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:558)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:553)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:84)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.processSelectedKeys(AbstractNioWorker.java:471)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:332)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:35)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:102)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ WARN ] 2018-05-02 04:16:33,105 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 04:16:33,105 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = ErrorMysqlSink FlumeStorm
+[ WARN ] 2018-05-02 04:16:33,105 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 04:16:33,105 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 04:16:33,137 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 04:16:33,246 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 04:16:33,246 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = ErrorMysqlSink FlumeStorm
+[ WARN ] 2018-05-02 04:16:33,246 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 04:16:33,246 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 04:16:33,246 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ ERROR ] 2018-05-02 04:16:34,038 org.apache.flume.channel.file.FileChannel.start(FileChannel.java:306) --> Failed to start the file channel [channel=fileNormalChannel]
+java.io.IOException: Cannot lock C:\Users\yaoke\.flume\file-channel\checkpoint. The directory is already locked. [channel=fileNormalChannel]
+	at org.apache.flume.channel.file.Log.lock(Log.java:1137)
+	at org.apache.flume.channel.file.Log.<init>(Log.java:319)
+	at org.apache.flume.channel.file.Log.<init>(Log.java:75)
+	at org.apache.flume.channel.file.Log$Builder.build(Log.java:266)
+	at org.apache.flume.channel.file.FileChannel.start(FileChannel.java:294)
+	at info.ykqfrost.flume.FlumeAgent.startAgent(FlumeAgent.java:50)
+	at info.ykqfrost.Main.main(Main.java:20)
+[ WARN ] 2018-05-02 04:21:53,524 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 04:21:53,524 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = ErrorMysqlSink FlumeStorm
+[ WARN ] 2018-05-02 04:21:53,524 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 04:21:53,524 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 04:21:53,555 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 04:21:53,665 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 04:21:53,665 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = ErrorMysqlSink FlumeStorm
+[ WARN ] 2018-05-02 04:21:53,665 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 04:21:53,665 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 04:21:53,665 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ ERROR ] 2018-05-02 04:21:54,426 org.apache.flume.channel.file.Log.replay(Log.java:502) --> Failed to initialize Log on [channel=fileErrorChannel]
+java.lang.NullPointerException
+	at org.apache.flume.channel.file.Log.writeCheckpoint(Log.java:1043)
+	at org.apache.flume.channel.file.Log.replay(Log.java:498)
+	at org.apache.flume.channel.file.FileChannel.start(FileChannel.java:295)
+	at info.ykqfrost.flume.FlumeAgent.startAgent(FlumeAgent.java:50)
+	at info.ykqfrost.Main.main(Main.java:20)
+[ ERROR ] 2018-05-02 04:21:54,426 org.apache.flume.channel.file.FileChannel.start(FileChannel.java:306) --> Failed to start the file channel [channel=fileErrorChannel]
+java.lang.NullPointerException
+	at org.apache.flume.channel.file.Log.writeCheckpoint(Log.java:1043)
+	at org.apache.flume.channel.file.Log.replay(Log.java:498)
+	at org.apache.flume.channel.file.FileChannel.start(FileChannel.java:295)
+	at info.ykqfrost.flume.FlumeAgent.startAgent(FlumeAgent.java:50)
+	at info.ykqfrost.Main.main(Main.java:20)
+[ ERROR ] 2018-05-02 04:21:54,426 org.apache.flume.channel.file.FileChannel.start(FileChannel.java:306) --> Failed to start the file channel [channel=fileNormalChannel]
+java.io.IOException: Cannot lock C:\Users\yaoke\.flume\file-channel\checkpoint. The directory is already locked. [channel=fileNormalChannel]
+	at org.apache.flume.channel.file.Log.lock(Log.java:1137)
+	at org.apache.flume.channel.file.Log.<init>(Log.java:319)
+	at org.apache.flume.channel.file.Log.<init>(Log.java:75)
+	at org.apache.flume.channel.file.Log$Builder.build(Log.java:266)
+	at org.apache.flume.channel.file.FileChannel.start(FileChannel.java:294)
+	at info.ykqfrost.flume.FlumeAgent.startAgent(FlumeAgent.java:50)
+	at info.ykqfrost.Main.main(Main.java:20)
+[ WARN ] 2018-05-02 04:25:04,180 org.apache.avro.ipc.Responder.respond(Responder.java:156) --> user error
+java.lang.IllegalStateException: Channel closed [channel=fileErrorChannel]. Due to java.lang.NullPointerException: null
+	at org.apache.flume.channel.file.FileChannel.createTransaction(FileChannel.java:345)
+	at org.apache.flume.channel.BasicChannelSemantics.getTransaction(BasicChannelSemantics.java:122)
+	at org.apache.flume.channel.ChannelProcessor.processEvent(ChannelProcessor.java:260)
+	at org.apache.flume.source.AvroSource.append(AvroSource.java:356)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.avro.ipc.specific.SpecificResponder.respond(SpecificResponder.java:91)
+	at org.apache.avro.ipc.Responder.respond(Responder.java:151)
+	at org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.messageReceived(NettyServer.java:188)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.handleUpstream(NettyServer.java:173)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:558)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:786)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:458)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:439)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:558)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:553)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:84)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.processSelectedKeys(AbstractNioWorker.java:471)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:332)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:35)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:102)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at org.apache.flume.channel.file.Log.writeCheckpoint(Log.java:1043)
+	at org.apache.flume.channel.file.Log.replay(Log.java:498)
+	at org.apache.flume.channel.file.FileChannel.start(FileChannel.java:295)
+	at info.ykqfrost.flume.FlumeAgent.startAgent(FlumeAgent.java:50)
+	at info.ykqfrost.Main.main(Main.java:20)
+[ WARN ] 2018-05-02 04:25:04,180 org.apache.avro.ipc.Responder.respond(Responder.java:174) --> system error
+org.apache.avro.AvroRuntimeException: Unknown datum type: java.lang.IllegalStateException: Channel closed [channel=fileErrorChannel]. Due to java.lang.NullPointerException: null
+	at org.apache.avro.generic.GenericData.getSchemaName(GenericData.java:593)
+	at org.apache.avro.generic.GenericData.resolveUnion(GenericData.java:558)
+	at org.apache.avro.generic.GenericDatumWriter.resolveUnion(GenericDatumWriter.java:144)
+	at org.apache.avro.generic.GenericDatumWriter.write(GenericDatumWriter.java:71)
+	at org.apache.avro.generic.GenericDatumWriter.write(GenericDatumWriter.java:58)
+	at org.apache.avro.ipc.specific.SpecificResponder.writeError(SpecificResponder.java:74)
+	at org.apache.avro.ipc.Responder.respond(Responder.java:169)
+	at org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.messageReceived(NettyServer.java:188)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.handleUpstream(NettyServer.java:173)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:558)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:786)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:458)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:439)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:558)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:553)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:84)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.processSelectedKeys(AbstractNioWorker.java:471)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:332)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:35)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:102)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ WARN ] 2018-05-02 04:26:08,383 org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.exceptionCaught(NettyServer.java:201) --> Unexpected exception from downstream.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:59)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.processSelectedKeys(AbstractNioWorker.java:471)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:332)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ WARN ] 2018-05-02 04:28:46,547 org.apache.avro.ipc.Responder.respond(Responder.java:156) --> user error
+java.lang.IllegalStateException: Channel closed [channel=fileErrorChannel]. Due to java.lang.NullPointerException: null
+	at org.apache.flume.channel.file.FileChannel.createTransaction(FileChannel.java:345)
+	at org.apache.flume.channel.BasicChannelSemantics.getTransaction(BasicChannelSemantics.java:122)
+	at org.apache.flume.channel.ChannelProcessor.processEvent(ChannelProcessor.java:260)
+	at org.apache.flume.source.AvroSource.append(AvroSource.java:356)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.avro.ipc.specific.SpecificResponder.respond(SpecificResponder.java:91)
+	at org.apache.avro.ipc.Responder.respond(Responder.java:151)
+	at org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.messageReceived(NettyServer.java:188)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.handleUpstream(NettyServer.java:173)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:558)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:786)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:458)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:439)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:558)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:553)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:84)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.processSelectedKeys(AbstractNioWorker.java:471)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:332)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:35)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:102)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at org.apache.flume.channel.file.Log.writeCheckpoint(Log.java:1043)
+	at org.apache.flume.channel.file.Log.replay(Log.java:498)
+	at org.apache.flume.channel.file.FileChannel.start(FileChannel.java:295)
+	at info.ykqfrost.flume.FlumeAgent.startAgent(FlumeAgent.java:50)
+	at info.ykqfrost.Main.main(Main.java:20)
+[ WARN ] 2018-05-02 04:28:46,547 org.apache.avro.ipc.Responder.respond(Responder.java:174) --> system error
+org.apache.avro.AvroRuntimeException: Unknown datum type: java.lang.IllegalStateException: Channel closed [channel=fileErrorChannel]. Due to java.lang.NullPointerException: null
+	at org.apache.avro.generic.GenericData.getSchemaName(GenericData.java:593)
+	at org.apache.avro.generic.GenericData.resolveUnion(GenericData.java:558)
+	at org.apache.avro.generic.GenericDatumWriter.resolveUnion(GenericDatumWriter.java:144)
+	at org.apache.avro.generic.GenericDatumWriter.write(GenericDatumWriter.java:71)
+	at org.apache.avro.generic.GenericDatumWriter.write(GenericDatumWriter.java:58)
+	at org.apache.avro.ipc.specific.SpecificResponder.writeError(SpecificResponder.java:74)
+	at org.apache.avro.ipc.Responder.respond(Responder.java:169)
+	at org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.messageReceived(NettyServer.java:188)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.handleUpstream(NettyServer.java:173)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:558)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:786)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:458)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:439)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:558)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:553)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:84)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.processSelectedKeys(AbstractNioWorker.java:471)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:332)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:35)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:102)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ WARN ] 2018-05-02 04:29:07,699 org.apache.avro.ipc.Responder.respond(Responder.java:156) --> user error
+java.lang.IllegalStateException: Channel closed [channel=fileErrorChannel]. Due to java.lang.NullPointerException: null
+	at org.apache.flume.channel.file.FileChannel.createTransaction(FileChannel.java:345)
+	at org.apache.flume.channel.BasicChannelSemantics.getTransaction(BasicChannelSemantics.java:122)
+	at org.apache.flume.channel.ChannelProcessor.processEvent(ChannelProcessor.java:260)
+	at org.apache.flume.source.AvroSource.append(AvroSource.java:356)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.avro.ipc.specific.SpecificResponder.respond(SpecificResponder.java:91)
+	at org.apache.avro.ipc.Responder.respond(Responder.java:151)
+	at org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.messageReceived(NettyServer.java:188)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.handleUpstream(NettyServer.java:173)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:558)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:786)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:458)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:439)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:558)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:553)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:84)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.processSelectedKeys(AbstractNioWorker.java:471)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:332)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:35)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:102)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at org.apache.flume.channel.file.Log.writeCheckpoint(Log.java:1043)
+	at org.apache.flume.channel.file.Log.replay(Log.java:498)
+	at org.apache.flume.channel.file.FileChannel.start(FileChannel.java:295)
+	at info.ykqfrost.flume.FlumeAgent.startAgent(FlumeAgent.java:50)
+	at info.ykqfrost.Main.main(Main.java:20)
+[ WARN ] 2018-05-02 04:29:07,699 org.apache.avro.ipc.Responder.respond(Responder.java:174) --> system error
+org.apache.avro.AvroRuntimeException: Unknown datum type: java.lang.IllegalStateException: Channel closed [channel=fileErrorChannel]. Due to java.lang.NullPointerException: null
+	at org.apache.avro.generic.GenericData.getSchemaName(GenericData.java:593)
+	at org.apache.avro.generic.GenericData.resolveUnion(GenericData.java:558)
+	at org.apache.avro.generic.GenericDatumWriter.resolveUnion(GenericDatumWriter.java:144)
+	at org.apache.avro.generic.GenericDatumWriter.write(GenericDatumWriter.java:71)
+	at org.apache.avro.generic.GenericDatumWriter.write(GenericDatumWriter.java:58)
+	at org.apache.avro.ipc.specific.SpecificResponder.writeError(SpecificResponder.java:74)
+	at org.apache.avro.ipc.Responder.respond(Responder.java:169)
+	at org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.messageReceived(NettyServer.java:188)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.handleUpstream(NettyServer.java:173)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:558)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:786)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:458)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:439)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:558)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:553)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:84)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.processSelectedKeys(AbstractNioWorker.java:471)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:332)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:35)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:102)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ WARN ] 2018-05-02 04:30:14,765 org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.exceptionCaught(NettyServer.java:201) --> Unexpected exception from downstream.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:59)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.processSelectedKeys(AbstractNioWorker.java:471)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:332)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ WARN ] 2018-05-02 04:36:05,481 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 04:36:05,481 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = ErrorMysqlSink FlumeStorm
+[ WARN ] 2018-05-02 04:36:05,481 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 04:36:05,481 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 04:36:05,513 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 04:36:05,622 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 04:36:05,622 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = ErrorMysqlSink FlumeStorm
+[ WARN ] 2018-05-02 04:36:05,622 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 04:36:05,622 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 04:36:05,622 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 04:36:29,710 org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.exceptionCaught(NettyServer.java:201) --> Unexpected exception from downstream.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:59)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.processSelectedKeys(AbstractNioWorker.java:471)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:332)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ WARN ] 2018-05-02 04:38:48,256 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 04:38:48,256 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = ErrorMysqlSink FlumeStorm
+[ WARN ] 2018-05-02 04:38:48,256 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 04:38:48,256 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 04:38:48,287 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 04:38:48,412 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 04:38:48,412 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = ErrorMysqlSink FlumeStorm
+[ WARN ] 2018-05-02 04:38:48,412 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 04:38:48,412 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 04:38:48,412 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 04:45:20,533 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 04:45:20,533 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = ErrorMysqlSink FlumeStorm
+[ WARN ] 2018-05-02 04:45:20,533 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 04:45:20,533 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 04:45:20,549 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 04:45:20,658 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 04:45:20,658 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = ErrorMysqlSink FlumeStorm
+[ WARN ] 2018-05-02 04:45:20,658 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 04:45:20,658 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 04:45:20,674 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 04:47:10,160 org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.exceptionCaught(NettyServer.java:201) --> Unexpected exception from downstream.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:59)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.processSelectedKeys(AbstractNioWorker.java:471)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:332)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ WARN ] 2018-05-02 04:49:58,283 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 04:49:58,283 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = ErrorMysqlSink FlumeStorm
+[ WARN ] 2018-05-02 04:49:58,283 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 04:49:58,283 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 04:49:58,298 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 04:49:58,423 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 04:49:58,423 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = ErrorMysqlSink FlumeStorm
+[ WARN ] 2018-05-02 04:49:58,423 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 04:49:58,423 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 04:49:58,423 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 04:50:48,033 org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.exceptionCaught(NettyServer.java:201) --> Unexpected exception from downstream.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:59)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.processSelectedKeys(AbstractNioWorker.java:471)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:332)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ WARN ] 2018-05-02 04:51:11,595 org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.exceptionCaught(NettyServer.java:201) --> Unexpected exception from downstream.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:59)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.processSelectedKeys(AbstractNioWorker.java:471)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:332)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ WARN ] 2018-05-02 05:06:41,972 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 05:06:41,975 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = ErrorMysqlSink FlumeStorm
+[ WARN ] 2018-05-02 05:06:41,976 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 05:06:41,976 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 05:06:42,001 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 05:06:42,118 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 05:06:42,118 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = ErrorMysqlSink FlumeStorm
+[ WARN ] 2018-05-02 05:06:42,119 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 05:06:42,119 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 05:06:42,124 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 05:07:55,051 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 05:07:55,053 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 05:07:55,070 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:654) --> no context for sinkFlumeStorm
+[ WARN ] 2018-05-02 05:07:55,081 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:698) --> Could not configure sink  ErrorMysqlSink due to: No channel configured for sink: ErrorMysqlSink
+org.apache.flume.conf.ConfigurationException: No channel configured for sink: ErrorMysqlSink
+	at org.apache.flume.conf.sink.SinkConfiguration.configure(SinkConfiguration.java:51)
+	at org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:681)
+	at org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:347)
+	at org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.access$000(FlumeConfiguration.java:213)
+	at org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:127)
+	at org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:109)
+	at org.apache.flume.node.PropertiesFileConfigurationProvider.getFlumeConfiguration(PropertiesFileConfigurationProvider.java:189)
+	at org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:89)
+	at info.ykqfrost.flume.FlumeAgent.initAgent(FlumeAgent.java:39)
+	at info.ykqfrost.flume.FlumeAgent.<init>(FlumeAgent.java:34)
+	at info.ykqfrost.Main.main(Main.java:18)
+[ WARN ] 2018-05-02 05:07:55,195 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 05:07:55,196 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 05:07:55,200 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:654) --> no context for sinkFlumeStorm
+[ WARN ] 2018-05-02 05:07:55,201 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:698) --> Could not configure sink  ErrorMysqlSink due to: No channel configured for sink: ErrorMysqlSink
+org.apache.flume.conf.ConfigurationException: No channel configured for sink: ErrorMysqlSink
+	at org.apache.flume.conf.sink.SinkConfiguration.configure(SinkConfiguration.java:51)
+	at org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:681)
+	at org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:347)
+	at org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.access$000(FlumeConfiguration.java:213)
+	at org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:127)
+	at org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:109)
+	at org.apache.flume.node.PropertiesFileConfigurationProvider.getFlumeConfiguration(PropertiesFileConfigurationProvider.java:189)
+	at info.ykqfrost.flume.FlumeAgent.initAgent(FlumeAgent.java:40)
+	at info.ykqfrost.flume.FlumeAgent.<init>(FlumeAgent.java:34)
+	at info.ykqfrost.Main.main(Main.java:18)
+[ WARN ] 2018-05-02 05:10:03,841 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 05:10:03,844 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 05:10:03,861 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:654) --> no context for sinkFlumeStorm
+[ WARN ] 2018-05-02 05:10:03,861 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:654) --> no context for sinkerrorMysqlSink
+[ WARN ] 2018-05-02 05:10:03,978 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:320) --> Agent configuration for 'agent2' does not contain any channels. Marking it as invalid.
+[ WARN ] 2018-05-02 05:10:03,978 org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:128) --> Agent configuration invalid for agent 'agent2'. It will be removed.
+[ WARN ] 2018-05-02 05:10:03,983 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:654) --> no context for sinkFlumeStorm
+[ WARN ] 2018-05-02 05:10:03,983 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:654) --> no context for sinkerrorMysqlSink
+[ WARN ] 2018-05-02 05:11:07,821 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 05:11:07,821 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = ErrorMysqlSink
+[ WARN ] 2018-05-02 05:11:07,868 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 05:11:07,961 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty(FlumeConfiguration.java:1047) --> Invalid property specified: sink
+[ WARN ] 2018-05-02 05:11:07,961 org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:102) --> Configuration property ignored: agent1.sink = ErrorMysqlSink
+[ WARN ] 2018-05-02 05:11:07,977 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:618) --> Agent configuration for 'agent1' has no sinks.
+[ WARN ] 2018-05-02 05:13:15,701 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:698) --> Could not configure sink  ErrorMysqlSink due to: No channel configured for sink: ErrorMysqlSink
+org.apache.flume.conf.ConfigurationException: No channel configured for sink: ErrorMysqlSink
+	at org.apache.flume.conf.sink.SinkConfiguration.configure(SinkConfiguration.java:51)
+	at org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:681)
+	at org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:347)
+	at org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.access$000(FlumeConfiguration.java:213)
+	at org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:127)
+	at org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:109)
+	at org.apache.flume.node.PropertiesFileConfigurationProvider.getFlumeConfiguration(PropertiesFileConfigurationProvider.java:189)
+	at org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:89)
+	at info.ykqfrost.flume.FlumeAgent.initAgent(FlumeAgent.java:39)
+	at info.ykqfrost.flume.FlumeAgent.<init>(FlumeAgent.java:34)
+	at info.ykqfrost.Main.main(Main.java:18)
+[ WARN ] 2018-05-02 05:13:15,795 org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:698) --> Could not configure sink  ErrorMysqlSink due to: No channel configured for sink: ErrorMysqlSink
+org.apache.flume.conf.ConfigurationException: No channel configured for sink: ErrorMysqlSink
+	at org.apache.flume.conf.sink.SinkConfiguration.configure(SinkConfiguration.java:51)
+	at org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateSinks(FlumeConfiguration.java:681)
+	at org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.isValid(FlumeConfiguration.java:347)
+	at org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.access$000(FlumeConfiguration.java:213)
+	at org.apache.flume.conf.FlumeConfiguration.validateConfiguration(FlumeConfiguration.java:127)
+	at org.apache.flume.conf.FlumeConfiguration.<init>(FlumeConfiguration.java:109)
+	at org.apache.flume.node.PropertiesFileConfigurationProvider.getFlumeConfiguration(PropertiesFileConfigurationProvider.java:189)
+	at info.ykqfrost.flume.FlumeAgent.initAgent(FlumeAgent.java:40)
+	at info.ykqfrost.flume.FlumeAgent.<init>(FlumeAgent.java:34)
+	at info.ykqfrost.Main.main(Main.java:18)
+[ WARN ] 2018-05-02 05:17:18,509 org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.exceptionCaught(NettyServer.java:201) --> Unexpected exception from downstream.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:59)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.processSelectedKeys(AbstractNioWorker.java:471)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:332)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ WARN ] 2018-05-04 09:14:06,762 org.apache.avro.ipc.NettyServer$NettyServerAvroHandler.exceptionCaught(NettyServer.java:201) --> Unexpected exception from downstream.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:59)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.processSelectedKeys(AbstractNioWorker.java:471)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:332)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ ERROR ] 2018-05-04 09:21:10,618 org.apache.flume.node.AbstractConfigurationProvider.loadSources(AbstractConfigurationProvider.java:361) --> Source avroSrc has been removed due to an error during configuration
+org.apache.flume.FlumeException: Selector channel not found: fileErrorMemory
+	at org.apache.flume.channel.AbstractChannelSelector.getChannelListFromNames(AbstractChannelSelector.java:85)
+	at org.apache.flume.channel.MultiplexingChannelSelector.configure(MultiplexingChannelSelector.java:99)
+	at org.apache.flume.conf.Configurables.configure(Configurables.java:41)
+	at org.apache.flume.channel.ChannelSelectorFactory.create(ChannelSelectorFactory.java:52)
+	at org.apache.flume.node.AbstractConfigurationProvider.loadSources(AbstractConfigurationProvider.java:344)
+	at org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:97)
+	at info.ykqfrost.flume.FlumeAgent.initAgent(FlumeAgent.java:38)
+	at info.ykqfrost.flume.FlumeAgent.<init>(FlumeAgent.java:33)
+	at info.ykqfrost.Main.main(Main.java:17)
+[ WARN ] 2018-05-04 09:21:10,633 org.apache.flume.node.AbstractConfigurationProvider.getConfiguration(AbstractConfigurationProvider.java:105) --> Channel fileNormalChannel has no components connected and has been removed.
