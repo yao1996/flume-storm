@@ -5,49 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b6fd8af-79bd-4787-a250-858d4e6f5f95" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/info/ykqfrost/common/MybatisUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/info/ykqfrost/mapper/InfoLogMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/MysqlBolt.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/sqlMapper/InfoLogMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/string/RegexTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_3_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_0_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jfree_jcommon_1_0_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_axis_axis_1_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_core_0_20_204_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_3_6_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_3_6_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_mahout_commons_commons_cli_2_0_mahout.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_mahout_mahout_core_0_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_mahout_mahout_math_0_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_uncommons_maths_uncommons_maths_1_2_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/info/ykqfrost/bean/Movie.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/info/ykqfrost/bean/MovieRating.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/info/ykqfrost/common/PreHandleForMahout.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/info/ykqfrost/common/ReadFileToDb.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/info/ykqfrost/mahout/MySlopeOneRecommender.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/info/ykqfrost/mapper/MovieMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/info/ykqfrost/mapper/MovieRatingMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/movies.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/ratings.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/sqlMapper/MovieMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/sqlMapper/MovieRatingMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/verification/MovieRating.java" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8113116-1e55-40cb-bf90-10409951d5dd.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/f8113116-1e55-40cb-bf90-10409951d5dd.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/log.iml" afterPath="$PROJECT_DIR$/log.iml" />
       <change beforePath="$PROJECT_DIR$/log.log" afterPath="$PROJECT_DIR$/log.log" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/info/ykqfrost/Main.java" afterPath="$PROJECT_DIR$/src/main/java/info/ykqfrost/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/ykqfrost/bean/ErrorLog.java" afterPath="$PROJECT_DIR$/src/main/java/info/ykqfrost/bean/Log.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/info/ykqfrost/common/Constants.java" afterPath="$PROJECT_DIR$/src/main/java/info/ykqfrost/common/Constants.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/ykqfrost/flume/AbstractMysqlSink.java" afterPath="$PROJECT_DIR$/src/main/java/info/ykqfrost/flume/AbstractMysqlSink.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/ykqfrost/flume/ErrorMysqlSink.java" afterPath="$PROJECT_DIR$/src/main/java/info/ykqfrost/flume/ErrorMysqlSink.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/info/ykqfrost/flume/FlumeAgent.java" afterPath="$PROJECT_DIR$/src/main/java/info/ykqfrost/flume/FlumeAgent.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/ykqfrost/mapper/ErrorLogMapper.java" afterPath="$PROJECT_DIR$/src/main/java/info/ykqfrost/mapper/ErrorLogMapper.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/FlumeSpout.java" afterPath="$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/FlumeSpout.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/ReportBolt.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/SentenceSpout.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/SplitSentenceBolt.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/Storm.java" afterPath="$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/Storm.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/agent2.conf" afterPath="$PROJECT_DIR$/src/main/resources/agent2.conf" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sqlMapper/ErrorLogMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlMapper/ErrorLogMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mybatis/ConnectorTest.java" afterPath="$PROJECT_DIR$/src/test/java/mybatis/ConnectorTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/agent1.conf" afterPath="$PROJECT_DIR$/target/classes/agent1.conf" />
-      <change beforePath="$PROJECT_DIR$/target/classes/agent2.conf" afterPath="$PROJECT_DIR$/target/classes/agent2.conf" />
       <change beforePath="$PROJECT_DIR$/target/classes/info/ykqfrost/Main.class" afterPath="$PROJECT_DIR$/target/classes/info/ykqfrost/Main.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/ykqfrost/bean/ErrorLog.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/info/ykqfrost/common/Constants.class" afterPath="$PROJECT_DIR$/target/classes/info/ykqfrost/common/Constants.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/ykqfrost/flume/AbstractMysqlSink.class" afterPath="$PROJECT_DIR$/target/classes/info/ykqfrost/flume/AbstractMysqlSink.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/info/ykqfrost/flume/ErrorMysqlSink.class" afterPath="$PROJECT_DIR$/target/classes/info/ykqfrost/flume/ErrorMysqlSink.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/info/ykqfrost/flume/FlumeAgent.class" afterPath="$PROJECT_DIR$/target/classes/info/ykqfrost/flume/FlumeAgent.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/ykqfrost/mapper/ErrorLogMapper.class" afterPath="$PROJECT_DIR$/target/classes/info/ykqfrost/mapper/ErrorLogMapper.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/info/ykqfrost/storm/FlumeSpout.class" afterPath="$PROJECT_DIR$/target/classes/info/ykqfrost/storm/FlumeSpout.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/ykqfrost/storm/ReportBolt.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/ykqfrost/storm/SentenceSpout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/ykqfrost/storm/SplitSentenceBolt.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/info/ykqfrost/storm/Storm.class" afterPath="$PROJECT_DIR$/target/classes/info/ykqfrost/storm/Storm.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
       <change beforePath="$PROJECT_DIR$/target/classes/mybatis.xml" afterPath="$PROJECT_DIR$/target/classes/mybatis.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sqlMapper/ErrorLogMapper.xml" afterPath="$PROJECT_DIR$/target/classes/sqlMapper/ErrorLogMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mybatis/ConnectorTest.class" afterPath="$PROJECT_DIR$/target/test-classes/mybatis/ConnectorTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,41 +92,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FlumeAgent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/flume/FlumeAgent.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-321">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="29">
+              <caret line="32" column="23" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MysqlBolt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/MysqlBolt.java">
+      <file leaf-file-name="movie_rating" pinned="false" current-in-tab="false">
+        <entry file="das://table:/7a47f08f/f8113116-1e55-40cb-bf90-10409951d5dd/log.movie_rating">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f8113116-1e55-40cb-bf90-10409951d5dd/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="41" column="25" lean-forward="false" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            <state relative-caret-position="87">
+              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MybatisUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/common/MybatisUtils.java">
+      <file leaf-file-name="MySlopeOneRecommender.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/mahout/MySlopeOneRecommender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ErrorMysqlSink.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/flume/ErrorMysqlSink.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+            <state relative-caret-position="905">
+              <caret line="104" column="5" lean-forward="true" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -146,7 +147,6 @@
       <find>Netty</find>
       <find>hello</find>
       <find>spout ID</find>
-      <find>1</find>
       <find>agent</find>
       <find>未</find>
       <find>No channel configured</find>
@@ -157,6 +157,11 @@
       <find>.channels :</find>
       <find>从event提取日期失败</find>
       <find>\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}</find>
+      <find>INSERT INTO log.log_i</find>
+      <find>1</find>
+      <find>insert into log.er</find>
+      <find>insert into log.in</find>
+      <find>2198</find>
     </findStrings>
     <replaceStrings>
       <replace>agent1</replace>
@@ -174,16 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/main/java/storm/SentenceSpout.java" />
-        <option value="$PROJECT_DIR$/src/main/java/storm/SplitSentenceBolt.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/topology.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/Common.java" />
-        <option value="$PROJECT_DIR$/src/main/java/flume/StormSink.java" />
-        <option value="$PROJECT_DIR$/src/main/java/storm/FlumeStorm.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ConfigurationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/flume/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/FileConfigurationProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/MemoryConfigurationProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/storm/FlumeSpoutCopy.java" />
@@ -197,7 +192,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/sqlmapper/ErrorLog.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/sqlMapper/ErrorLog.xml" />
         <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/mapper/ErrorLog.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/sqlMapper/ErrorLogMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mysql.properties" />
         <option value="$PROJECT_DIR$/src/test/java/mybatis/ConnectorTest.java" />
@@ -205,25 +199,37 @@
         <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/ReportBolt.java" />
         <option value="$PROJECT_DIR$/src/main/resources/agent1.conf" />
         <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/bean/ErrorLog.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f8113116-1e55-40cb-bf90-10409951d5dd/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/mapper/ErrorLogMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/mapper/InfoLogMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/common/MybatisUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/flume/AbstractMysqlSink.java" />
-        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/common/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/resources/agent2.conf" />
-        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/FlumeSpout.java" />
-        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/flume/FlumeAgent.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/MysqlBolt.java" />
         <option value="$PROJECT_DIR$/src/test/java/string/RegexTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/bean/Log.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/Storm.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sqlMapper/InfoLogMapper.xml" />
         <option value="$PROJECT_DIR$/log.log" />
         <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/flume/ErrorMysqlSink.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/flume/AbstractMysqlSink.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/MysqlBolt.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/common/MybatisUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/flume/FlumeAgent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/FlumeSpout.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/bean/MovieRating.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/bean/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/common/FileUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/common/PreHandleForMahout.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/common/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/common/ReadFileToDb.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/sqlMapper/MovieMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/mapper/MovieMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/sqlMapper/MovieRatingMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/mapper/MovieRatingMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/verification/MovieRating.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/info/ykqfrost/mahout/MySlopeOneRecommender.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f8113116-1e55-40cb-bf90-10409951d5dd/console.sql" />
       </list>
     </option>
   </component>
@@ -256,8 +262,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="27" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="170" />
+    <option name="y" value="12" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -279,6 +286,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -346,6 +355,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ykqfrost" type="462c0819:PsiDirectoryNode" />
+              <item name="mahout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ykqfrost" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -364,46 +382,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sqlMapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -431,7 +418,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MySlopeOneRecommender">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -478,6 +465,45 @@
       <module name="log" />
       <envs />
     </configuration>
+    <configuration name="MySlopeOneRecommender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="info.ykqfrost.mahout.MySlopeOneRecommender" />
+      <option name="VM_PARAMETERS" value="-Xmx1024m" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="log" />
+      <envs />
+    </configuration>
+    <configuration name="PreHandleForMahout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="info.ykqfrost.common.PreHandleForMahout" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="log" />
+      <envs />
+    </configuration>
+    <configuration name="ReadFileToDb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="info.ykqfrost.common.ReadFileToDb" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="log" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
@@ -491,51 +517,13 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="ConnectorTest.testConnector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieRating.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="log" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="mybatis" />
-      <option name="MAIN_CLASS_NAME" value="mybatis.ConnectorTest" />
-      <option name="METHOD_NAME" value="testConnector" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="RegexTest.testDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="log" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="string" />
-      <option name="MAIN_CLASS_NAME" value="string.RegexTest" />
-      <option name="METHOD_NAME" value="testDate" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="RegexTest.testNewDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="log" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="string" />
-      <option name="MAIN_CLASS_NAME" value="string.RegexTest" />
-      <option name="METHOD_NAME" value="testNewDate" />
+      <option name="PACKAGE_NAME" value="verification" />
+      <option name="MAIN_CLASS_NAME" value="verification.MovieRating" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -606,18 +594,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ConnectorTest.testConnector" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RegexTest.testDate" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RegexTest.testNewDate" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PreHandleForMahout" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MySlopeOneRecommender" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ReadFileToDb" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MovieRating.test" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RegexTest.testNewDate" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RegexTest.testDate" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ConnectorTest.testConnector" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.MySlopeOneRecommender" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MovieRating.test" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ReadFileToDb" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PreHandleForMahout" />
       </list>
     </recent_temporary>
   </component>
@@ -672,31 +662,40 @@
       <workItem from="1525223609146" duration="16258000" />
       <workItem from="1525310793503" duration="1501000" />
       <workItem from="1525332954223" duration="2505000" />
-      <workItem from="1525395757704" duration="13688000" />
+      <workItem from="1525395757704" duration="14178000" />
+      <workItem from="1525582289889" duration="600000" />
+      <workItem from="1525832359340" duration="1488000" />
+      <workItem from="1526439513312" duration="895000" />
+      <workItem from="1526455048398" duration="1191000" />
+      <workItem from="1526477638712" duration="1338000" />
+      <workItem from="1526521347803" duration="17446000" />
+      <workItem from="1526607005842" duration="17035000" />
+      <workItem from="1526727115293" duration="8157000" />
+      <workItem from="1526790303649" duration="5101000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConnectorTest_testConnector - 2018.04.23 at 15h 48m 22s.xml">
-      <configuration name="ConnectorTest.testConnector" configurationId="JUnit" />
+    <history-entry file="MovieRating_test - 2018.05.19 at 19h 41m 53s.xml">
+      <configuration name="MovieRating.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConnectorTest_testConnector - 2018.04.23 at 15h 48m 38s.xml">
-      <configuration name="ConnectorTest.testConnector" configurationId="JUnit" />
+    <history-entry file="MovieRating_test - 2018.05.19 at 19h 43m 31s.xml">
+      <configuration name="MovieRating.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConnectorTest_testConnector - 2018.04.23 at 15h 52m 10s.xml">
-      <configuration name="ConnectorTest.testConnector" configurationId="JUnit" />
+    <history-entry file="MovieRating_test - 2018.05.19 at 19h 44m 05s.xml">
+      <configuration name="MovieRating.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegexTest_testDate - 2018.05.04 at 16h 54m 12s.xml">
-      <configuration name="RegexTest.testDate" configurationId="JUnit" />
+    <history-entry file="MovieRating_test - 2018.05.19 at 19h 45m 53s.xml">
+      <configuration name="MovieRating.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegexTest_testDate - 2018.05.04 at 16h 55m 27s.xml">
-      <configuration name="RegexTest.testDate" configurationId="JUnit" />
+    <history-entry file="MovieRating_test - 2018.05.19 at 19h 46m 36s.xml">
+      <configuration name="MovieRating.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegexTest_testDate - 2018.05.04 at 16h 55m 55s.xml">
-      <configuration name="RegexTest.testDate" configurationId="JUnit" />
+    <history-entry file="MovieRating_test - 2018.05.19 at 19h 52m 13s.xml">
+      <configuration name="MovieRating.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegexTest_testDate - 2018.05.04 at 16h 56m 29s.xml">
-      <configuration name="RegexTest.testDate" configurationId="JUnit" />
+    <history-entry file="MovieRating_test - 2018.05.19 at 19h 54m 23s.xml">
+      <configuration name="MovieRating.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RegexTest_testDate - 2018.05.04 at 16h 56m 47s.xml">
       <configuration name="RegexTest.testDate" configurationId="JUnit" />
@@ -709,10 +708,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169007000" />
+    <option name="totallyTimeSpent" value="222748000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -720,29 +719,33 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20877458" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47446457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35255355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784185" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784185" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43822077" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20121029" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784185" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20045386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19969743" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784185" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -754,352 +757,187 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mysql.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="79" lean-forward="false" selection-start-line="2" selection-start-column="79" selection-end-line="2" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro-ipc/1.7.4/avro-ipc-1.7.4.jar!/org/apache/avro/ipc/Responder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flume/flume-ng-core/1.6.0/flume-ng-core-1.6.0.jar!/org/apache/flume/instrumentation/MonitoredCounterGroup.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-590">
-          <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flume/flume-ng-core/1.6.0/flume-ng-core-1.6.0.jar!/org/apache/flume/instrumentation/SinkCounter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-474">
-          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flume/flume-ng-core/1.6.0/flume-ng-core-1.6.0.jar!/org/apache/flume/source/AvroSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/11.0.2/guava-11.0.2.jar!/com/google/common/collect/ImmutableMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="134" column="26" lean-forward="true" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/11.0.2/guava-11.0.2.jar!/com/google/common/collect/Maps.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="412" column="28" lean-forward="true" selection-start-line="412" selection-start-column="28" selection-end-line="412" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/11.0.2/guava-11.0.2.jar!/com/google/common/base/Joiner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="226" column="29" lean-forward="false" selection-start-line="226" selection-start-column="29" selection-end-line="226" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flume/flume-ng-core/1.6.0/flume-ng-core-1.6.0.jar!/org/apache/flume/sink/AvroSink.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mybatis/ConnectorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/11.0.2/guava-11.0.2.jar!/com/google/common/base/Strings.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flume/flume-ng-core/1.6.0/flume-ng-core-1.6.0.jar!/org/apache/flume/sink/LoggerSink.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-471">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="452" column="18" lean-forward="false" selection-start-line="452" selection-start-column="18" selection-end-line="452" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flume/flume-ng-core/1.6.0/flume-ng-core-1.6.0.jar!/org/apache/flume/sink/AbstractRpcSink.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="48" column="22" lean-forward="false" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flume/flume-ng-core/1.6.0/flume-ng-core-1.6.0.jar!/org/apache/flume/conf/Configurable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flume/flume-ng-configuration/1.6.0/flume-ng-configuration-1.6.0.jar!/org/apache/flume/Context.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flume/flume-ng-core/1.6.0/flume-ng-core-1.6.0.jar!/org/apache/flume/SinkRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-661">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flume/flume-ng-core/1.6.0/flume-ng-core-1.6.0.jar!/org/apache/flume/Sink.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flume/flume-ng-sinks/flume-hdfs-sink/1.6.0/flume-hdfs-sink-1.6.0.jar!/org/apache/flume/sink/hdfs/HDFSEventSink.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="255" column="18" lean-forward="false" selection-start-line="255" selection-start-column="18" selection-end-line="255" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flume/flume-ng-core/1.6.0/flume-ng-core-1.6.0.jar!/org/apache/flume/sink/AbstractSink.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="27" column="77" lean-forward="true" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4149">
-          <caret line="163" column="11" lean-forward="false" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
-          <folding>
-            <element signature="e#6390#6391#0" expanded="false" />
-            <element signature="e#6438#6439#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="2119" column="19" lean-forward="false" selection-start-line="2119" selection-start-column="19" selection-end-line="2119" selection-end-column="19" />
-          <folding>
-            <element signature="e#82616#82617#0" expanded="false" />
-            <element signature="e#82667#82668#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f8113116-1e55-40cb-bf90-10409951d5dd/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/mapper/ErrorLogMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
+        <state relative-caret-position="29">
           <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sqlMapper/ErrorLogMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/storm/storm-core/1.0.4/storm-core-1.0.4.jar!/org/apache/storm/tuple/Values.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/storm/storm-core/1.0.4/storm-core-1.0.4.jar!/org/apache/storm/topology/base/BaseRichSpout.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/storm/storm-core/1.0.4/storm-core-1.0.4.jar!/org/apache/storm/topology/base/BaseRichBolt.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/flume/AbstractMysqlSink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="15" column="86" lean-forward="false" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/SentenceSpout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/SplitSentenceBolt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/ReportBolt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/agent1.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="50" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="261">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/agent2.conf">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flume/flume-ng-clients/flume-ng-log4jappender/1.6.0/flume-ng-log4jappender-1.6.0.jar!/org/apache/flume/clients/log4jappender/Log4jAppender.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="19" column="99" lean-forward="false" selection-start-line="19" selection-start-column="99" selection-end-line="19" selection-end-column="99" />
-          <folding />
+        <state relative-caret-position="290">
+          <caret line="72" column="83" lean-forward="true" selection-start-line="72" selection-start-column="83" selection-end-line="72" selection-end-column="83" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/FlumeSpout.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Level.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding>
-            <element signature="e#1334#1341#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="348">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/common/Constants.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/spi/LoggingEvent.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#332#341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/mapper/InfoLogMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="222">
+          <caret line="114" column="21" lean-forward="false" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/bean/Log.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        <state relative-caret-position="29">
+          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/storm/storm-core/1.0.4/storm-core-1.0.4.jar!/org/apache/storm/spout/SpoutOutputCollector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/datasource/unpooled/UnpooledDataSourceFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/datasource/pooled/PooledDataSourceFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/datasource/pooled/PooledDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/datasource/unpooled/UnpooledDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="76" column="17" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mybatis/ConnectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ratings.dat">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/out.text" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="96" column="26" lean-forward="false" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sqlMapper/InfoLogMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/common/MybatisUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <marker date="1525424834320" expanded="true" signature="578:658" ph="INSERT INTO log.log_error... " />
-          </folding>
+        <state relative-caret-position="522">
+          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flume/flume-ng-core/1.6.0/flume-ng-core-1.6.0.jar!/org/apache/flume/channel/AbstractChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flume/flume-ng-core/1.6.0/flume-ng-core-1.6.0.jar!/org/apache/flume/lifecycle/LifecycleAware.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/flume/AbstractMysqlSink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/flume/ErrorMysqlSink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/MysqlBolt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/agent2.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="50" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/Storm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="43" column="95" lean-forward="false" selection-start-line="43" selection-start-column="95" selection-end-line="43" selection-end-column="95" />
-          <folding>
-            <element signature="e#478#486#0" expanded="false" />
-            <element signature="e#578#579#0" expanded="false" />
-            <element signature="e#618#619#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="325">
+          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/string/RegexTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/flume/FlumeAgent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="522">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/FlumeSpout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-24">
+          <caret line="3885" column="37" lean-forward="true" selection-start-line="3885" selection-start-column="37" selection-end-line="3885" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1117,42 +955,174 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sqlMapper/ErrorLogMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/mapper/InfoLogMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/out.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/bean/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="e#209#210#0" expanded="false" />
+            <element signature="e#239#240#0" expanded="false" />
+            <element signature="e#282#283#0" expanded="false" />
+            <element signature="e#320#321#0" expanded="false" />
+            <element signature="e#351#352#0" expanded="false" />
+            <element signature="e#378#379#0" expanded="false" />
+            <element signature="e#418#419#0" expanded="false" />
+            <element signature="e#450#451#0" expanded="false" />
+            <element signature="e#481#482#0" expanded="false" />
+            <element signature="e#508#509#0" expanded="false" />
+            <element signature="e#548#549#0" expanded="false" />
+            <element signature="e#580#581#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/bean/MovieRating.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/movies.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-754">
+          <caret line="79" column="51" lean-forward="false" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/7a47f08f/f8113116-1e55-40cb-bf90-10409951d5dd/log.movie">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/common/PreHandleForMahout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1073">
+          <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/common/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/common/ReadFileToDb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sqlMapper/MovieMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/mapper/MovieMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/mapper/MovieRatingMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="19" column="84" lean-forward="false" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sqlMapper/MovieRatingMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.7/mahout-core-0.7.jar!/org/apache/mahout/cf/taste/recommender/RecommendedItem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/verification/MovieRating.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/flume/FlumeAgent.java">
+    <entry file="das://table:/7a47f08f/f8113116-1e55-40cb-bf90-10409951d5dd/log.movie_rating">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f8113116-1e55-40cb-bf90-10409951d5dd/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-321">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="87">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/storm/MysqlBolt.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="41" column="25" lean-forward="false" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        <state relative-caret-position="29">
+          <caret line="32" column="23" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/common/MybatisUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/mahout/MySlopeOneRecommender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/ykqfrost/flume/ErrorMysqlSink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        <state relative-caret-position="905">
+          <caret line="104" column="5" lean-forward="true" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
           <folding />
         </state>
       </provider>

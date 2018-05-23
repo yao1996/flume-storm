@@ -4,6 +4,9 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <properties resource="mysql.properties" />
+    <settings>
+        <setting name="logImpl" value="NO_LOGGING"/>
+    </settings>
 
     <environments default="development">
         <environment id="development">
@@ -20,5 +23,7 @@
     <mappers>
         <mapper resource="sqlMapper/ErrorLogMapper.xml"/>
         <mapper resource="sqlMapper/InfoLogMapper.xml"/>
+        <mapper resource="sqlMapper/MovieMapper.xml"/>
+        <mapper resource="sqlMapper/MovieRatingMapper.xml"/>
     </mappers>
 </configuration>

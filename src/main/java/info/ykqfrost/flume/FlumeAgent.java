@@ -60,6 +60,24 @@ public class FlumeAgent {
         }
     }
 
+    public void close() {
+        if (!channels.isEmpty()) {
+            for (Channel channel : channels.values()) {
+                channel.stop();
+            }
+        }
+        if (!sources.isEmpty()) {
+            for (SourceRunner sourceRunner : sources.values()) {
+                sourceRunner.stop();
+            }
+        }
+        if (!sinks.isEmpty()) {
+            for (SinkRunner sinkRunner : sinks.values()) {
+                sinkRunner.stop();
+            }
+        }
+    }
+
     public Channel getFileNormalChannel() {
         return channels.get(Constants.FLUME_CHANNEL_NAME_2);
     }

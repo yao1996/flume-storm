@@ -33,6 +33,7 @@ public class FlumeSpout extends BaseRichSpout {
         this.collector = spoutOutputCollector;
         int i = Integer.parseInt(topologyContext.getThisComponentId().replace(Constants.SPOUT_ID, ""));
         this.channel = Main.channels.get(i);
+        logger.debug(channel.getName());
     }
 
     public void nextTuple() {

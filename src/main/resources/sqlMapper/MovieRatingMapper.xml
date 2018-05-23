@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="info.ykqfrost.mapper.MovieRatingMapper">
+    <resultMap id="BaseResultMap" type="info.ykqfrost.bean.MovieRating">
+        <id property="movieId" column="movie_id"/>
+        <id property="userId" column="user_id"/>
+        <result property="score" column="score"/>
+    </resultMap>
+
+    <insert id="insertMovieRating" parameterType="info.ykqfrost.bean.MovieRating">
+        INSERT INTO log.movie_rating
+        VALUES (#{userId}, #{movieId}, #{score})
+    </insert>
+
+    <select id="selectRatingByUserId" resultMap="BaseResultMap">
+        SELECT * FROM log.movie_rating
+        WHERE user_id = #{userId} AND score = #{score}
+    </select>
+</mapper>

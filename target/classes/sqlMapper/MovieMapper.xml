@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="info.ykqfrost.mapper.MovieMapper">
+    <resultMap id="BaseResultMap" type="info.ykqfrost.bean.Movie">
+        <id property="movieId" column="id"/>
+        <result property="name" column="name"/>
+        <result property="type" column="type"/>
+    </resultMap>
+
+    <insert id="insertMovie" parameterType="info.ykqfrost.bean.Movie">
+        INSERT INTO log.movie
+        VALUES (#{movieId}, #{name}, #{type})
+    </insert>
+
+    <select id="selectMovieByMovieId" parameterType="int" resultMap="BaseResultMap">
+        SELECT *
+        FROM log.movie
+        WHERE id = #{movieId}
+    </select>
+</mapper>

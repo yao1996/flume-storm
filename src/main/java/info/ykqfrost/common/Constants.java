@@ -17,4 +17,7 @@ public class Constants {
     public static final String TOPOLOGY_NAME = "flume_storm_topology";
 
     public static final String RES_MYBATIS = "mybatis.xml";
+
+    public static final String MOVIE_FILE_PATH = "src/main/resources/movies.dat";
+    public static final String RATING_FILE_PATH = "src/main/resources/ratings.dat";
 }
